@@ -5,13 +5,16 @@ from Four import *
 from Five import *
 from KeyValidation import *
 
-print("\n\t[CoinMarketCap Exploring Tool] using CoinMarketCap API\n\t")
-print("1 - Show the Top (X) sorted by (Y).")
-print("2 - Show the potential Top (X)'s portfolio.")
-print("3 - Show the latest global cryptocurrency market metrics.")
-print("4 - Start the alert.")
-print("5 - Store the currencies into Excel file.")
-print("0 - Exit.\n")
+def printIntro():
+    print("\n\t[CoinMarketCap Exploring Tool] using CoinMarketCap API\n\t")
+    print("1 - Show the Top (X) sorted by (Y).")
+    print("2 - Show the potential Top (X)'s portfolio.")
+    print("3 - Show the latest global cryptocurrency market metrics.")
+    print("4 - Start the alert.")
+    print("5 - Store the currencies into Excel file.")
+    print("0 - Exit.\n")
+
+printIntro()
 
 keyObj = KeyValidation()
 obj1 = One()
@@ -25,7 +28,7 @@ print()
 
 while (True):
     try:
-        number = int(input("What is your choice? [0,6]: "))
+        number = int(input(Fore.GREEN + "What is your choice? [0,5]: " + Style.RESET_ALL))
     except:
         print("\nYou have to input some integer value to choose.\n")
         exit(0)
@@ -57,5 +60,7 @@ while (True):
         exit(0)
     elif (response == "n"):
         exit(0)
+
+    printIntro()
 
 

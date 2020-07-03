@@ -72,8 +72,7 @@ class One:
             if (circulatingSupply is None):
                 circulatingSupply = "NaN"
             else:
-                circulatingSupply = round(circulatingSupply)
-                circulatingSupply = "$" + "{:,}".format(circulatingSupply)
+                circulatingSupply = "{:,}".format(round(circulatingSupply))
 
             if (change24h is None):
                 change24h = "NaN"

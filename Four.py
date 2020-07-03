@@ -4,14 +4,15 @@ import os
 import pytz
 import time
 import dateutil
+from colorama import Fore, Style
 from datetime import datetime
 from TopSecrets import *
 
 class Four:
     def justDoIt(self):
         print("\n[Cryptocurrency Alert] started to tracking!\n")
-        name = input("Write the name of cryptocurrency name: ")
-        expected = float(input("Write the expected price: "))
+        name = input(Fore.GREEN + "Write the name of cryptocurrency name: " + Style.RESET_ALL)
+        expected = float(input(Fore.GREEN + "Write the expected price: " + Style.RESET_ALL))
         print()
 
         request = requests.get(TopSecrets.listingURL, headers=TopSecrets.requestHeaders)
@@ -80,4 +81,4 @@ class Four:
                     else:
                         exit(0)
         else:
-            print("\nSpecified cryptocurrency name is not found in CoinMarketCap database.")
+            print(Fore.RED + "\nSpecified cryptocurrency name is not found in CoinMarketCap database." + Style.RESET_ALL)

@@ -7,7 +7,7 @@ import requests
 class Five:
     def justDoIt(self):
         try:
-            limit = int(input("\nWrite the limit of the data count: "))
+            limit = int(input(Fore.GREEN + "\nWrite the limit of the data count: " + Style.RESET_ALL))
         except:
             print("\nYou have to input some integer value.\n")
             exit(0)
@@ -24,7 +24,7 @@ class Five:
         if (isHere == False):
             f = open("cryptocurrencies.xlsx","w+")
             f.close()
-            print("\nProgram created the 'cryptocurrencies.xlsx' file.\n")
+            print(Fore.GREEN + "\nProgram created the 'cryptocurrencies.xlsx' file.\n" + Style.RESET_ALL)
 
         workbook = xlsxwriter.Workbook("cryptocurrencies.xlsx")
         sheet = workbook.add_worksheet()
@@ -56,4 +56,4 @@ class Five:
 
         workbook.close()
 
-        print(Fore.RED + "All information was written into excel file." + Style.RESET_ALL)
+        print(Fore.GREEN + "All information was written into excel file." + Style.RESET_ALL)

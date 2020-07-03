@@ -1,6 +1,7 @@
 import json
 import locale
 import requests
+from colorama import Fore, Style
 from TopSecrets import *
 from prettytable import PrettyTable
 
@@ -13,7 +14,7 @@ class Two:
         total_market_cap = dataSet["quote"]["USD"]["total_market_cap"]
 
         try:
-            limit = int(input("\nWrite the limit of the data count: \n"))
+            limit = int(input(Fore.GREEN + "\nWrite the limit of the data count: \n" + Style.RESET_ALL))
         except:
             print("\nYou have to input some valid integer value!\n")
             exit(0)
