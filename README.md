@@ -44,6 +44,11 @@
 
 <br/><br/>
 
+**If you found a bug, have a suggestion which you want to share with me,  just only want to thank me?**
+ * Please don't hesitate to contact me: yigitakin3551@gmail.com
+ 
+<br/> 
+
 **References:**
   * https://coinmarketcap.com/
   
