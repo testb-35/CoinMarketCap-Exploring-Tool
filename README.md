@@ -12,6 +12,7 @@
 **1)** What's the CoinMarketCap API?
 ![introduction](https://user-images.githubusercontent.com/53393474/86461947-73159f00-bd33-11ea-9801-43ab09e38af2.png)
 
+<br/>
 
 **2)** What does Circulating Supply, Market Capitalization, Total Supply, and Max Supply mean?
 ![circulating_supply](https://user-images.githubusercontent.com/53393474/86462999-54180c80-bd35-11ea-818f-d5d663331557.png)
@@ -24,10 +25,12 @@
   https://pro.coinmarketcap.com/login/
   ![login](https://user-images.githubusercontent.com/53393474/86462267-018a2080-bd34-11ea-82ee-64465b900cbe.png)
   
+  <br/>
   
   **2)** After the login process, your webpage will be redirected to this page. Thus, you can get your API key.
   ![after_login](https://user-images.githubusercontent.com/53393474/86472614-183a7280-bd48-11ea-8844-1e7e64caf8d8.png)
   
+  <br/>
   
   **3)** Then run the Core.py file in the project's directory. (it should include other .py files in the directory)
   ![3](https://user-images.githubusercontent.com/53393474/86473686-0954bf80-bd4a-11ea-9a72-5e7f4961f71a.png)
