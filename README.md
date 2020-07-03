@@ -35,6 +35,11 @@
   **3)** Then run the Core.py file in the project's directory. (it should include other .py files in the directory)
   ![3](https://user-images.githubusercontent.com/53393474/86473686-0954bf80-bd4a-11ea-9a72-5e7f4961f71a.png)
   
+  <br/>
+  
+  **4)** With the correct key, we successfully logged into the tool!
+  ![successful_login](https://user-images.githubusercontent.com/53393474/86486134-319ce800-bd63-11ea-884f-e7a2e93d6262.png)
+  
 <br/><br/>
 
 **Libraries that are used in the project:**
