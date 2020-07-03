@@ -4,7 +4,7 @@ from TopSecrets import *
 from prettytable import PrettyTable
 from colorama import Fore, Back, Style
 
-class Three:
+class ListTheGlobalMarketMetrics:
 
     def justDoIt(self):
         request = requests.get(TopSecrets.globalURL, headers=TopSecrets.requestHeaders)

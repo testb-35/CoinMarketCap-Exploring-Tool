@@ -9,7 +9,7 @@ from datetime import datetime
 from prettytable import PrettyTable
 from colorama import Fore, Back, Style
 
-class One:
+class ListTheCryptocurrencies:
     def justDoIt(self):
         try:
             sorting = input("\nChoose the sorting variable like market_cap: ")

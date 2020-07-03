@@ -1,8 +1,8 @@
-from One import *
-from Two import *
-from Three import *
-from Four import *
-from Five import *
+from ListTheCryptocurrencies import *
+from ListTheFutureValuesOfCryptocurrencies import *
+from ListTheGlobalMarketMetrics import *
+from AlertSystem import *
+from StoreDataIntoExcel import *
 from KeyValidation import *
 
 def printIntro():
@@ -17,11 +17,11 @@ def printIntro():
 printIntro()
 
 keyObj = KeyValidation()
-obj1 = One()
-obj2 = Two()
-obj3 = Three()
-obj4 = Four()
-obj5 = Five()
+obj1 = ListTheCryptocurrencies()
+obj2 = ListTheFutureValuesOfCryptocurrencies()
+obj3 = ListTheGlobalMarketMetrics()
+obj4 = AlertSystem()
+obj5 = StoreDataIntoExcel()
 
 keyObj.validateTheKey()
 print()

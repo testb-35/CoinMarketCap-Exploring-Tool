@@ -4,7 +4,7 @@ import xlsxwriter
 import os
 import requests
 
-class Five:
+class StoreDataIntoExcel:
     def justDoIt(self):
         try:
             limit = int(input(Fore.GREEN + "\nWrite the limit of the data count: " + Style.RESET_ALL))

@@ -8,7 +8,7 @@ from colorama import Fore, Style
 from datetime import datetime
 from TopSecrets import *
 
-class Four:
+class AlertSystem:
     def justDoIt(self):
         print("\n[Cryptocurrency Alert] started to tracking!\n")
         name = input(Fore.GREEN + "Write the name of cryptocurrency name: " + Style.RESET_ALL)
