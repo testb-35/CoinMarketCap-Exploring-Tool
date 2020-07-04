@@ -46,7 +46,7 @@ while (True):
     elif (number == 5):
         obj5.justDoIt()
     else:
-        print("\nYou have to input some valid integer value. [0,6]\n")
+        print("\nYou have to input some valid integer value. [0,5]\n")
         exit(0)
 
     try:
